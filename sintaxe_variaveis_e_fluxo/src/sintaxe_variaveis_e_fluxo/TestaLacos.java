@@ -1,6 +1,5 @@
 package sintaxe_variaveis_e_fluxo;
 
-import java.util.Iterator;
 
 public class TestaLacos {
 	
