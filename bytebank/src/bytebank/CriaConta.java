@@ -25,7 +25,17 @@ public class CriaConta {
 		
 		segundaConta.agencia = 146;
 		System.out.println("agora a segunda conta está"
-				+ " na agência " + segundaConta.agencia);
+				+ " na agência " + segundaConta.agencia+"\n");
+		
+		
+		if(primeiraConta == segundaConta) {
+			System.out.println("são iguais, apontam para o mesmo endereço de memória");
+		} else {
+			System.out.println("são diferentes, não apontam para o mesmo endereço de memória");
+		}
+		
+		System.out.println("endereço de memória da 1ª conta: " + primeiraConta);
+		System.out.println("endereço de memória da 2ª conta: " + segundaConta);
 		
 	}
 
