@@ -20,7 +20,7 @@ public class TestaBanco {
 		System.out.println(contaDoAndre.titular);
 		System.out.println(andre);
 		
-		System.out.println(contaDoAndre.saldo);
+		System.out.println(contaDoAndre.pegaSaldo());
 	}
 
 }
